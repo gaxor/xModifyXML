@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rootElem>
+  <t1 />
+  <t2 id="" />
+  <t3 id="3">three</t3>
+  <parent.elem1 attr="e1">
+    <parent-elem2 attr="e2" id="?">
+      <sideElem name="zero" id="0" />
+      <elem attr="a" id="1" color="?">Five</elem>
+      <elem attr="b" id="2" color="?">Five</elem>
+      <elem attr="c" id="3" />
+      <elem attr="d" id="4" />
+      <elem attr="e" id="5">
+        <subElem attr="f" id="6" />
+        <subElem attr="g" id="7" name="?">seven</subElem>
+      </elem>
+      <sideElem2>Some Text</sideElem2>
+      <elem />
+      <subElem2 />
+    </parent-elem2>
+  </parent.elem1>
+</rootElem>
