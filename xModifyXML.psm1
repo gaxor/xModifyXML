@@ -1,4 +1,7 @@
-﻿Enum Ensure
+﻿# Not production ready
+# Find "to-do" comments below
+
+Enum Ensure
 {
     Absent
     Present
