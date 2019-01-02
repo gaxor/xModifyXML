@@ -405,7 +405,7 @@ Function Add-XmlNode
                 }
                 PredicateTargetElement
                 {
-                    # to-do: not tested; copied from case above; needs values changed
+                    # todo: not tested; copied from case above; needs values changed
                     $ParentName  = Get-XPathItem -NodeXPath $NodeName -Item PredicateParentElement
                     $ElementName = Get-XPathItem -NodeXPath $NodeName -Item PredicateTargetElement
                     $ElementPath = $ParentPath, $ParentName, $ElementName -join '/'
@@ -437,7 +437,7 @@ Function Add-XmlNode
                 }
                 PredicateTargetAttribute
                 {
-                    # to-do: not tested; copied from case above; needs values changed
+                    # todo: not tested; copied from case above; needs values changed
                     $ParentName     = Get-XPathItem -NodeXPath $NodeName -Item PredicateParentElement
                     $AttributeName  = Get-XPathItem -NodeXPath $NodeName -Item PredicateTargetAttribute
                     $AttributePath  = $ParentPath, $ParentName, "@$AttributeName" -join '/'
@@ -461,7 +461,7 @@ Function Add-XmlNode
                 }
                 PredicateValue
                 {
-                    # to-do: not tested; copied from case above; needs values changed
+                    # todo: not tested; copied from case above; needs values changed
                     $ParentName     = Get-XPathItem -NodeXPath $NodeName -Item PredicateParentElement
                     $AttributeName  = Get-XPathItem -NodeXPath $NodeName -Item PredicateTargetAttribute
                     $AttributeValue = Get-XPathItem -NodeXPath $NodeName -Item PredicateValue
